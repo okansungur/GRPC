@@ -8,3 +8,10 @@ This results in slower implementation than rest but increases message transmissi
  Apart from pros it has a Non-human Readable Format and limited browser support.It is not a replacement of rest api.
  It is another alternative  for large scale microservice connections and communications. As there are lots of microservices  communicating  each other. It is a good way of handling with the requests in a short time when compared with the rest api.
  
+Protobuf scalar types 
+
+![scalar types](https://github.com/okansungur/GRPC/blob/main/datatypes.png)
+
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
