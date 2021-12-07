@@ -12,6 +12,7 @@ Protobuf scalar types
 
 ![scalar types](https://github.com/okansungur/GRPC/blob/main/datatypes.png)
 
+The output of our sample grpc application is :
 <p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/okansungur/GRPC/blob/main/clientresponse.png" />
 </p>
