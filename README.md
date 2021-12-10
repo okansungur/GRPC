@@ -18,6 +18,10 @@ Apart from pros it has a Non-human Readable Format and limited browser support.I
 It is another alternative  for large scale microservice connections and communications. As there are lots of microservices  communicating  each other. It is a good way of handling with the requests in a short time when compared with the rest api.
 
 
+
+https://github.com/okansungur/GRPC/blob/871492d5e8f22e4b2231e06b68bf0b8bcf74e6b8/gserver/src/main/proto/StudentService.proto
+
+
 The output of our sample grpc application is :
 <p align="center">
   <img src="https://github.com/okansungur/GRPC/blob/main/clientresponse.png" />
