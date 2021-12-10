@@ -18,6 +18,7 @@ Apart from pros it has a Non-human Readable Format and limited browser support.I
 It is another alternative  for large scale microservice connections and communications. As there are lots of microservices  communicating  each other. It is a good way of handling with the requests in a short time when compared with the rest api.
 
 
+https://github.com/okansungur/GRPC/edit/main/README.md?plain=1.
 
 
 
