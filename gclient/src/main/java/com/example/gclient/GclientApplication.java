@@ -31,8 +31,8 @@ public class GclientApplication {
                             .build());
             System.out.println("updated-successfully : \n" + updateResponse);
 
-                StudentList employeeList = blockingStub.list(com.example.gserver.Empty.newBuilder().build());
-            System.out.println("students  are: \n" + employeeList);
+                StudentList studentlist = blockingStub.list(com.example.gserver.Empty.newBuilder().build());
+            System.out.println("students  are: \n" + studentlist);
 
             Response deleteResponse = blockingStub.delete(StudentId.newBuilder().setId(1).build());
             System.out.println("deleted-successfully : \n" + deleteResponse);

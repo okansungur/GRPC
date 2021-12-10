@@ -7,9 +7,8 @@ import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.ServerServiceDefinition;
 import com.example.gserver.services.StudentService;
-import java.io.IOException;
 import java.util.List;
-import java.util.stream.Stream;
+
 
 public class GserverApplication {
     static final  int portNumber=9435;

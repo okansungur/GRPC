@@ -18,11 +18,11 @@ public class StudentService extends StudentServiceGrpc.StudentServiceImplBase{
                 .setCity("Istanbul")
                 .setCountry("TR").build();
 
-        Student employee= Student.newBuilder().setId(1L).setFirstName("Hakan").setLastName("Sng").setAddress(address).build();
+        Student student= Student.newBuilder().setId(1L).setFirstName("Hakan").setLastName("Sng").setAddress(address).build();
 
 
         entities = new ConcurrentHashMap<String, Student>();
-        entities.put("1",employee);
+        entities.put("1",student);
 
 
     }
