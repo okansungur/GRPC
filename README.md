@@ -19,7 +19,50 @@ It is another alternative  for large scale microservice connections and communic
 
 
 
-https://github.com/okansungur/GRPC/blob/871492d5e8f22e4b2231e06b68bf0b8bcf74e6b8/gserver/src/main/proto/StudentService.proto
+syntax = "proto3";
+
+package  com.example;
+option java_package = "com.example.gserver";
+option java_multiple_files = true;
+option java_generic_services = true;
+
+message Student {
+  int64 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  message Address {
+    string houseNo = 1;
+    string street = 2;
+    string city = 3;
+    string country = 4;
+  }
+  Address address = 4;
+}
+
+message StudentList {
+  repeated  Student students = 1;
+}
+
+message StudentId {
+  int64 id = 1;
+}
+
+message Empty {}
+
+message Response {
+  int64 code = 1;
+  string message = 2;
+}
+
+service StudentService {
+  rpc Create(Student) returns (Response);
+  rpc List(Empty) returns (StudentList);
+  rpc Update(Student) returns (Response);
+  rpc Delete(StudentId) returns (Response);
+}
+
+
+
 
 
 The output of our sample grpc application is :
